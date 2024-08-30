@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager">
+    <orderEntry type="jdk" jdkName="Remote Python 3.9.5 (sftp://peter@192.168.210.111:22/home/peter/miniconda3/envs/BSN/bin/python3.9)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

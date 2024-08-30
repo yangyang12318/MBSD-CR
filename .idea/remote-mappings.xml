@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@sftp://peter@192.168.210.111:22/home/peter/miniconda3/envs/BSN/bin/python3.9">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/peter/yy/BSN_YY/mycode3" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>
