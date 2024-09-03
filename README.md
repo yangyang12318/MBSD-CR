@@ -11,6 +11,12 @@ Despecking results of different methods on simulated images
 ![image](https://github.com/user-attachments/assets/1d8b3b03-995c-4858-ae51-2e7ff623985e)
 Despecking results of different methods on real images
 
+The dataset are as follows:
+QXS-SAROPT: https://www.wenjuan.com/s/UZBZJv5GwL/
+Hunan_dataset: https://drive.google.com/file/d/1m3wYiQolm2YEmpzH6cGQZ4wWw_EdFAdN/view?usp=sharing
+Xinjiang_dataset: https://drive.google.com/drive/folders/1uSLrDiFrS-3ydES5jaiccnEKz0loVwu1?usp=drive_link
+
+
 The code needs to run under ubuntu 20.04 with opencv 3.4 installed
 1.Run the following code to install the environment
 
@@ -27,3 +33,4 @@ Go to the gen_ref folder, change the path to the dataset in nearestPixel.py, and
 4.test Modify the path to the data in test and run
 
 `python test.py --session_name  <new_session> --ckpt_epoch 20`
+
