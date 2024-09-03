@@ -14,16 +14,16 @@ Despecking results of different methods on real images
 The code needs to run under ubuntu 20.04 with opencv 3.4 installed
 1.Run the following code to install the environment
 
-conda create -n MBCR python==3.8
-pip install -r requirements.txt
+`conda create -n MBCR python==3.8`
+`pip install -r requirements.txt`
 
 2.Cross-domain reference map generation
-Go to the gen_ref folder, change the path to the dataset in nearestPixel.py, and run python nearestPixel.py to generate the reference image NLsar
+Go to the gen_ref folder, change the path to the dataset in nearestPixel.py, and run `python nearestPixel.py` to generate the reference image NLsar
 
 3.train.  Put the data together in the format of the example in the dataset file, and then run
 
-python  train.py --session_name    <new_session>  --epoch  20 
+`python  train.py --session_name    <new_session>  --epoch  20 `
 
 4.test Modify the path to the data in test and run
 
-python test.py --session_name  <new_session> --ckpt_epoch 20
+`python test.py --session_name  <new_session> --ckpt_epoch 20`
