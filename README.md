@@ -26,7 +26,7 @@ The code needs to run under ubuntu 20.04 with opencv 3.4 installed
 `pip install -r requirements.txt`
 
 ## 2.Cross-domain reference map generation
-1. run `g++ -o nearestPixel nearestPixel.cpp `pkg-config --cflags --libs opencv` to generate .so file 
+1. run `g++ -o nearestPixel nearestPixel.cpp pkg-config --cflags --libs opencv` to generate `.so` file 
 2. Go to the gen_ref folder, change the path to the dataset in nearestPixel.py, and run `python nearestPixel.py` to generate the reference image NLsar
 
 ## 3.train.  Put the data together in the format of the example in the dataset file, and then run
