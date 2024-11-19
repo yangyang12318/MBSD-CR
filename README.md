@@ -1,5 +1,5 @@
-## SAR Image Despeckling with Gradient-Guided by Cross-domain Reference Feature derived from optical and SAR images
-Yang Yang<sup>a</sup>, Jun Pan <sup>a,※</sup>, Jiangong Xu <sup>a</sup>, Zhongli Fan <sup>a</sup>, Zeming Geng <sup>a</sup>, Junli Li <sup>b</sup>, Mi Wang <sup>a,※</sup>
+## GCOANet： A Gradient Consistency Constraints Semi-Supervised Network for Optical Image-Assisted SAR despeckling
+Yang Yang<sup>a</sup>, Jun Pan <sup>a,※</sup>, Jiangong Xu <sup>a</sup>, Zhongli Fan <sup>a</sup>, Zeming Geng <sup>a</sup>, Junli Li <sup>b</sup>
 
 <sup>a</sup> State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University, Wuhan 430079, China
 
